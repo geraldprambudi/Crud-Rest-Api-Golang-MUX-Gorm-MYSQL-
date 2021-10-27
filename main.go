@@ -44,7 +44,7 @@ func main() {
 }
 
 func handleRequests() {
-	log.Println("Start the development server at http://127.0.0.1:uhuy")
+	log.Println("Start the development server at http://127.0.0.1:9999")
 
 	myRouter := mux.NewRouter().StrictSlash(true)
 
